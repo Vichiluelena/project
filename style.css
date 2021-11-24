@@ -1,0 +1,140 @@
+body{
+    width: 909px;
+    height: 1070px;
+    margin: auto;
+    background-image:url(fon.jpg) ;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'M PLUS Code Latin', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    
+    
+    
+
+    }
+
+
+    .container
+    {
+        font-family: 'Kaushan Script', cursive;
+        font-family: 'M PLUS Code Latin', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+
+    .img
+    {
+        margin-top: 50px;
+        
+    }
+
+
+     header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 15px;
+    margin-bottom: 90px;
+    font-size:  30 px;
+    position:relative;
+    top: 10px;
+    
+  }  
+  
+     header nav a{
+      text-decoration: none;
+      color:rgb(133, 20, 5);
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      position:relative;
+    top: 10px;  
+  }
+
+
+    header nav a:hover{
+      color:tomato;
+  }
+
+  .text{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      font-weight: bold;
+
+  }
+  
+  .section-footer{
+    
+    background: rgba(134, 102, 31, 0.9); /* Цвет фона */
+    height: 155px; 
+    opacity: 0.7; /* Значение прозрачности */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+    
+    
+
+}
+
+footer{
+position:relative;
+top:155px;
+opacity: 0.8;
+}
+
+#footer-ces{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    font-family: Nunito;
+    color: white;
+    width: 909px;
+    margin-left: 10 px;
+    margin-right: 10 px;
+}
+
+#footer-ces figure{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+
+#footer-ces h4{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#footer-ces div p{
+
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#footer-ces a{
+    color: rgb(46, 1, 1);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 30px;}
+
+
+  
+
+
+    
+
+
+
