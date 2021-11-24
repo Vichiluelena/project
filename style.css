@@ -61,6 +61,11 @@ body{
     header nav a:hover{
       color:tomato;
   }
+  button{
+    width:25%; 
+    height:80%;
+
+  }
 
   .text{
       display:grid;
